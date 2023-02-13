@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 100px auto;
+    text-align: center;
+    width: 800px;
+    background-image: url("bg3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h1 {
+    font-family: "Passion One";
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  label {
+    position: relative;
+    left: -50px;
+    width: 50px;
+    display: inline-block;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: "Lato";
+  }
+  input {
+    position: relative;
+    right: -50px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: "Lato";
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #c2c2c2;
+    box-shadow: 1px 1px 4px #ebebeb;
+    border-radius: 3px;
+    padding: 7px;
+    outline: none;
+  }
+  form {
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    width: 550px;
+    background: whitesmoke;
+  }
+  div.form-element {
+    margin: 20px 0;
+  }
+  button {
+    font-size: 1.5rem;
+    font-family: "Lato";
+    font-weight: 100;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #ff8500;
+    width: 40%;
+    margin: 20px;
+    color: #fff;
+    box-shadow: 1px 1px 4px #dadada;
+    border-radius: 3px;
+  }
+  p.success,
+  p.error {
+    color: white;
+    font-family: lato;
+    background: yellowgreen;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2px 10px;
+  }
+  p.error {
+    background: orangered;
+  }

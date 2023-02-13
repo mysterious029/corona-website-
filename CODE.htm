@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AP</title>
+    <link rel="stylesheet" href="mystyle.css" type="text/css">
+    <script src="java.js"></script>
+    <script src="clock.js"></script>
+</head>
+<body onload="checkCookie()">
+    <div id = "digital-clock"> </div>
+  <script src="clock.js"></script>
+  <ul type="none">
+    <button><li><a href="application programing.html" class="m" onclick="home()">HOME</a></li></button>
+     <button><li><a href="#code" target="_bank" class="m" onclick="form()">FORM</a></li></button>
+   </ul>
+<h1>INFORMATION RELATED TO COVID-19</h1>
+<h2>FILL THE FORM</h2>
+<form >
+    <fieldset>
+        <legend><h2 style="color:crimson"><i>PERSONALIA</h2></i></legend>
+    <label for="fname" >FIRST NAME</label>
+    <input type="text" id="fname" name="fname" required>
+    <label for="lname" >LAST NAME</label>
+    <input type="text" id="lname" name="lname" required ><br><br>
+    <lebel for="b" >BIRTHDAY</lebel>
+    <input type="date" id="b" name="b"  required><br><br>
+    <lebel for="e">EMAIL</lebel>
+    <input type="email" id="e" name="e">
+    <h3><i>GENDER</i></h3>
+    <input type="radio" id="male" name="male" value="male">
+    <label for="male" >MALE</label><br>
+    <input type="radio" id="female" name="female" value="female">
+    <label for="female">FEMALE</label><br>
+    <a href="#mm" onclick="mkm()"><i>jump to submit buttom</i></a>
+    </fieldset>
+    <h3> <i>DETAILS</i><h3></h3>
+    <input type="checkbox" id="MKM" name="MKM">
+    <label for="MKM">I AM INFECTED FROM COVID CURRENTLY</label><br>
+    <input type="checkbox" id="m" name="m">
+    <label for="m">I AM RECOVER FROM COVID</label><br>
+    <input type="checkbox" id="k" name="k">
+    <label for="k">I AM NOT INFECTED FROM COVID TILL NOW </label><br><hr>
+    <h3><i>MEDICAL REPORT</i></h3>
+    <label for="myfile">SELECT A FILE</label>
+    <input type="file" id="myfile" name="myfile" required><hr>
+    <h3><i>SELECT ANY ONE</i></h3>
+    <label for="l">SELECT SYNDOM</labee>
+    <select id="l" name="l">
+        <option value="fever">FEVER</option>
+        <option value="cough">COUGH</option>
+        <option value="headache">HEADACHE</option>
+        <option value="body pain">BODY-PAIN</option>
+        <option value="none">NONE</option>
+    </select><br><hr>
+    <lebel for="h">USERNAME</lebel>
+    <input type="text" id="h" name="username"><br><br>
+    <label for="p">PASSWORD</label>
+    <input type="password" id="p" name="password"><br><hr>
+    <h3><i>SUGGESTION</i></h3>
+    <textarea name="message" row="10" cols="20"></textarea><br><hr>
+    <button type="button" onclick="alert('thank u for filling the form & plzzz submit')">CLICK ME!</button><br><br><hr>
+    <input type="submit" id="mm" onmousedown="my()" value="SUBMIT">
+    <input type="reset" id="p" onclick="hi()" value="RESET"><br><br><hr>
+    <button><a href="application programing.html" onclick="say()" target="">HOME</a></button>
+</form>
+</body>
+</html>
